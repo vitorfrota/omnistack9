@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,body, #root{
+  min-height: 100%;
+}
+
+body{
+  background: black url('./assets/bg.jpg') no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+}
+body,input,button{
+  font-family: 'Nunito', Arial, Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+
+.container{
+  margin: 30px auto ;
+  max-width: 650px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content{
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 30px;
+}
+.content > p{
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.content form{
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label{
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.content form label span{
+  font-weight: normal;
+  color: #999;
+  font-size: 12px;
+}
+.content form input{
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 40px;
+  padding: 18px 10px;
+  font-size: 16px;
+  transition: ease-in .2s;
+}
+
+.content form input:focus{
+  border: 1px solid #00b1a2;
+}
+
+.content button.btn{
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  padding: 11px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #00b1a2;
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in .2s;
+}
+.content button.btn:hover{
+  background: #00a699;
+}
+
+.btn-back{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: left;
+  color: #00b1a2;
+  font-size: 16px;
+}
+
+.btn-back:hover{
+  color: #00a699;
+}
+
+
+.btn-back img{
+  width:18px;
+  height: 18px;
+}

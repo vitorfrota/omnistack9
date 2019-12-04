@@ -1,0 +1,56 @@
+.price-span{
+    font-size: 15px;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+}
+.company-title{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+}
+label#thumb{
+    margin-bottom: 20px;
+    background-size: cover;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#thumb img{
+    width: 20px;
+    height: 20px;
+}
+
+label#thumb input{
+    display:none;
+}
+
+label#thumb.has-thumbnail{
+    border: 0;
+    height: 300px;
+}
+label#thumb.has-thumbnail img{
+    display: none;
+}
+
+.techs-list{
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px auto;
+}
+.techs-list li{
+    background: #fc642d;
+    border-radius: 20px;
+    color: #f8c5b2;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
